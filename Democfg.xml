@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+			"http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+			
+<beans>
+	<bean id="db" class="mypack.DemoBean">
+<!-- 		<constructor-arg value="Amit" type="String"></constructor-arg> -->
+<!-- 		<constructor-arg value="50000" type="Integer"></constructor-arg> -->
+	
+	<constructor-arg value="amit" index="0"></constructor-arg>
+	<constructor-arg value="50000" index="1"></constructor-arg>
+	
+	
+	
+	</bean>
+	
+	
+</beans>
